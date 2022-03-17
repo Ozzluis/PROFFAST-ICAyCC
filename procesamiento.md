@@ -1,4 +1,4 @@
-# Explicación del procesamiento de datos
+# Procesamiento de datos
 
 La obtención y manipulación de los datos se divide en dos partes: una parte in situ y otra de manera remota. 
 En la siguiente imagen se puede apreciar un diagrama de flujo esto mismo.
