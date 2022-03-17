@@ -26,6 +26,7 @@ Dentro de OPUS se ejecuta un _macro_ que realiza tres funciones mediante scripts
 ## Segunda parte del procesamiento
 
 Esta parte se realiza en los servidores del ICAyCC y consiste en la obtención de los cortes transversales y la ejecución de la inversión para obtener las concentraciones. (MUCHA MÁS INFORMACIÓN)
+
 __IMPORTANTE: Para acceder al servidor se requiere tener una cuanta en el mismo. El Dr. Alejandro Bezanilla puede proporcionala.__
 
 Se ejecutan NUMEROS de scripts para ejecutar el _pcxs_ y el _invers_ de PROFFAST.
