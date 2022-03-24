@@ -7,7 +7,7 @@ Se optó hacerlo de esta manera ya que el _preprocess_ no requiere de mucho recu
 
 Esta parte consiste en la obtención de los datos físicamente y la ejecución del __preprocess__ de PROFFAST. A cpmtinuación se muestra un diagrama de flujo que representa gráficamente esta parte del procesamiento. 
 
-![primer_diagrama](./PROFFAST-ICAyCC/images/primer_diagrama.png)
+![primer_diagrama](https://github.com/Ozzluis/PROFFAST-ICAyCC/tree/main/images/Diagrama_de_flujo_primera_parte.png)
 
 El EM2/SUN realiza mediciones cada minuto utilizando el programa OPUS; software que viene junto con dicho instrumento.
 Dentro de OPUS se ejecuta un _macro_ que realiza tres funciones mediante scripts de pyhton:
