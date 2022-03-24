@@ -1,7 +1,7 @@
 # Procesamiento de datos
 
 La obtención y manipulación de los datos se divide en dos partes: una parte in situ y otra de manera remota. 
-En la siguiente imagen se puede apreciar un diagrama de flujo esto mismo.
+Se optó hacerlo de esta manera ya que el _preprocess_ no requiere de mucho recurso computacional a comparación de los otros dos procesos: _pcxs_ y _invers_.
 
 ## Primera parte de procesamiento
 
