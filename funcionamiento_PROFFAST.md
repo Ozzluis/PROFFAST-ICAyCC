@@ -1,4 +1,4 @@
-# Funcionamiento de PROFFAST v2.0.1
+# Funcionamiento de PROFFAST
 
 PROFFAST es un código de recuperación basado en el ajuste de mínimos cuadrados que ajusta las cantidades de gases traza escalando perfiles atmosféricos _a priori_. Este código está diseñado para espectros de absorción solar de baja resolución. 
 
