@@ -27,8 +27,18 @@ Dentro de OPUS se ejecuta un _macro_ que realiza tres funciones mediante scripts
     
 ## Segunda parte del procesamiento
 
-Esta parte se realiza en los servidores del ICAyCC y consiste en la obtención de los cortes transversales y la ejecución de la inversión para obtener las concentraciones. (MUCHA MÁS INFORMACIÓN)
+Esta parte se realiza en los servidores del ICAyCC y consiste en la obtención de los cortes transversales y la ejecución de la inversión para obtener las columnas promediadas de los gases.
 
 __IMPORTANTE: Para acceder al servidor se requiere tener una cuanta en el mismo. El Dr. Alejandro Bezanilla puede proporcionala.__
 
-Se ejecutan NUMEROS de scripts para ejecutar el _pcxs_ y el _invers_ de PROFFAST.
+En la siguiente ruta del servidor se ejecuta esta parte del procesamiento de datos:
+
+```
+/home/D3_EM27/PROFFAST
+
+```
+Para procesar un día de mediciones se corre el script `run_oneday_arg.sh`, cuyas variables de entrada son: [1] método, [2] sitio de la medición, [3] fecha (AAMMDD), [4] instrumento con el que se midió. Un ejemplo de dichas variables de entrada sería: COCCON CCA 220325 EM27_62. Donde COCCON es el método, CCA el sitio de medición, 220325 la fecha de la medición y EM27_62 es el instrumento con el que se midió. 
+
+Este script va a preparar los input files __pcxs10.inp__ y __invers10.inp__ (mediante los sripts `setup_pcx10.py` y `setup_invers10.py` respectivamente) y va a ejecutar los programas __pcx10.exe__ y __invers10.exe__. El sript `setup_oneday.py` va a preparar todas las carpetas para almacenar los resultados que se generen de los programas PCX10 e INVERS.  
+
+
