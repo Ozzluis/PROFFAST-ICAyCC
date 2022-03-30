@@ -39,8 +39,4 @@ Los inputs que requiere son:
   * la fecha y el nombre de la estación de medición
   * el pT file
 
-
-
-
-
 * En ICAyCC se tienen diversos sitios de mediciones y están identificados por sus siglas: Vallejo, VAL; ICAyCC, CCA; Altzomoni, ALTZ; (COMPLETAR)
