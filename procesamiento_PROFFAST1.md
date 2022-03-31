@@ -35,9 +35,8 @@ En la siguiente ruta del servidor se ejecuta esta parte del procesamiento de dat
 
 ```
 /home/D3_EM27/PROFFAST
-
 ```
-Para procesar un día de mediciones se corre el script `run_oneday_arg.sh`, cuyas variables de entrada son: [1] método, [2] sitio de la medición, [3] fecha (AAMMDD), [4] instrumento con el que se midió. Un ejemplo de dichas variables de entrada sería: COCCON CCA 220325 EM27_62. Donde COCCON es el método, CCA el sitio de medición, 220325 la fecha de la medición y EM27_62 es el instrumento con el que se midió. 
+Para procesar un día de mediciones se corre el script `run_oneday_arg.sh`, cuyas variables de entrada son: [1] método, [2] sitio de la medición, [3] fecha (AAMMDD), [4] instrumento con el que se midió. Un ejemplo de dichas variables de entrada sería: `COCCON CCA 220325 EM27_62`. Donde COCCON es el método, CCA el sitio de medición, 220325 la fecha de la medición y EM27_62 es el instrumento con el que se midió. 
 
 Este script va a preparar los input files __pcxs10.inp__ y __invers10.inp__ (mediante los sripts `setup_pcx10.py` y `setup_invers10.py` respectivamente) y va a ejecutar los programas __pcx10.exe__ y __invers10.exe__. El sript `setup_oneday.py` va a preparar todas las carpetas para almacenar los resultados que se generen de los programas PCX10 e INVERS.  
 
