@@ -40,4 +40,7 @@ Para procesar un día de mediciones se corre el script `run_oneday_arg.sh`, cuya
 
 Este script va a preparar los input files __pcxs10.inp__ y __invers10.inp__ (mediante los sripts `setup_pcx10.py` y `setup_invers10.py` respectivamente) y va a ejecutar los programas __pcx10.exe__ y __invers10.exe__. El sript `setup_oneday.py` va a preparar todas las carpetas para almacenar los resultados que se generen de los programas PCX10 e INVERS.  
 
+Además, se corren los scripts: `readresultproffast2h5.py`, `readcolsens.py` y `readspc2h5.py`. Éstos están diseñados para que los resultados generados se pasen a formato h5f, que es un formato binario de python. También, el primero realiza una gráfica de la concentración del gas que se le especifique y la guarda en la carpeta `figs`.  
+
+(AQUÍ HACE FALTA EXPLICACIÓN SOBRE LOS OTROS DOS SCRIPTS)
 
