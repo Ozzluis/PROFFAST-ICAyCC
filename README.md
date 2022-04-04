@@ -6,5 +6,7 @@ Este repositorio está escrito en español pensando en que su uso será principa
 Dudas y/o aclaraciones se pueden contactar con:
 
 __Dr. Wolfgang Stremme:__ stremme@atmosfera.unam.mx
+
 __Dr. Alejandro Bezanilla:__ stremme@atmosfera.unam.mx 
+
 __Luis Alejandro Hernández:__ ozzluis@ciencias.unam.mx
