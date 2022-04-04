@@ -1,8 +1,9 @@
 # Procesamiento de datos mediante PROFFAST 2
 
-También se piensa realizar similarmente que con PROFFAST 1 pero con otra organización de carpetas y códigos. 
+El procesamiento de los datos con PROFFAST 2 es diferente al de su antecesor pues mejora la eficiencia de la lectura y análisis de datos. Se requiere de un solo __input_file__ (en formato `.yml`)que va a contener toda la información necesaria para correr este algoritmo de recuperación. Además, dentro de este archivo, se va a poder: especificar el rango de días que se quieran medir o incluso procesaro todas las mediciones que se encuentren en una carpeta especificada, definir la ruta de los interferogramas, de los _map.files_, de los datos de presión; especificar la ruta donde se van a almacenar los resultados. 
 
-(SE TIENEN QUE CREAR LOS CÓDIGOS Y SUS PROPIOS DIAGRAMAS)
+PROFFAST 2 provee de un `InputfileGenerator`, el cuál prepara un único inputfile para un instrumento y un lugar de mdición en específico. 
+
 
 ## Primera parte del procesamiento
 
