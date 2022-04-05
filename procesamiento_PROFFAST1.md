@@ -12,16 +12,16 @@ Esta parte consiste en la obtención de los datos físicamente y la ejecución d
 El EM2/SUN realiza mediciones cada minuto utilizando el programa OPUS; software que viene junto con dicho instrumento.
 Dentro de OPUS se ejecuta un _macro_ que realiza tres funciones mediante scripts de pyhton:
 
-* _pt_intraday_diaanterior.py_
+* `pt_intraday_diaanterior.py`
 
     Este srcipt genera los archivos _fecha_pT_intraday.inp_ los cuales proveen de información de la variabilidad del intradía de la presión y temperatura para el _invers_code_.
     También, sube al servidor los archivos _.dat_ que contienen información sobre las coordenadas del GPS y la hora de la medición en formato UTC.
     
-* _preprocesscript.py_
+* `preprocesscript.py`
 
     Ejecuta el _preprocess_ de PROFFAST, lo cuál hace que se creen los archivos ___.bin___ que son los espectros pre-calibrados y manda dichos archivos al servidor.   
     
-* _mandarOPUS.py_
+* `mandarOPUS.py`
 
     Manda los espectros calibrados al servidor del ICAyCC
     
