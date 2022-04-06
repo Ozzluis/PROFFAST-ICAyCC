@@ -32,7 +32,7 @@ Los inputs que requiere son:
     En este caso, el archivo pT coincide con el archivo _.map_ debido a que no se tiene un instrumento que mida precisamente la presión. 
   * los espectros pre-calibrados del PREPROCESS
 
-El producto que arroja es el archivo ___abscos.bin___, el cuál se requiere para ejecutar el código de INVERS.
+El producto que arroja es el archivo `abscos.bin`, el cuál se requiere para ejecutar el código de INVERS.
 
 ## INVERS
 
@@ -40,7 +40,7 @@ Es la última parte del código de recuperación y consiste en la inversión par
 
 Los inputs que requiere son:
   * los espectros SN pre-calibrados del PREPROCESS
-  * el ___abscos.bin___ que se generó en el PCXS
+  * el `abscos.bin` que se generó en el PCXS
   * la fecha y el nombre de la estación de medición
   * el pT file
 
