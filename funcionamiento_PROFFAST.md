@@ -10,7 +10,12 @@ A continuación se muestra un diagrama de flujo sobre su funcionamiento. (ADJUNT
 
 Es la primera parte del procesamiento de datos, consiste en una precalibración de los espectros además de realizar correciones del DC (cosas relacionadas a la corriente), de fase y de la transformada de Fourier.
 
-Los inputs que requiere su ___input file___ son: los interferogramas generados por OPUS, el parámetro ILS (_Instrumental Line Shape_), el nombre del sitio de mediciones*, datos del tiempo en que se realizó la medición, latitud, longitud y altitud de la estación de medición. (Aquí hace falta una descripción exhaustiva sobre el input file de PREPROCESS)
+Los inputs que requiere su ___input file___ son: 
+
+ * los interferogramas generados por OPUS
+ * el parámetro ILS (_Instrumental Line Shape_)
+ * el nombre del sitio de mediciones*, 
+ * las coordenadas de la estación de medición.
 
 El producto que arroja son justamente los espectros pre-calibrados en su formato `.bin` que se almacenan en la carpeta `cal`, donde va a haber achivos del tipo `*SN.bin` y `*SM.bin`; siendo los primeros los espectros en la región cercana del infrarojo (_Near Infrared_) y los segundos los correspondientes a la región media (Mid Infrared).  
 
