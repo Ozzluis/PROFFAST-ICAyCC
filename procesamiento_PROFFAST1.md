@@ -27,7 +27,7 @@ Dentro de OPUS se ejecuta un _macro_ que realiza tres funciones mediante scripts
     
 ## Segunda parte del procesamiento
 
-Esta parte se realiza en los servidores del ICAyCC y consiste en la obtención de los cortes transversales y la ejecución de la inversión para obtener las columnas promediadas de los gases.
+Esta parte se realiza en los servidores del ICAyCC, específicamente en el servidor tres, y consiste en la obtención de los cortes transversales y la ejecución de la inversión para obtener las columnas promediadas de los gases.
 
 __IMPORTANTE: Para acceder al servidor se requiere tener una cuanta en el mismo. El Dr. Alejandro Bezanilla puede proporcionala.__
 
