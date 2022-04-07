@@ -4,7 +4,9 @@ PROFFAST es un código de recuperación basado en el ajuste de mínimos cuadrado
 
 Se divide en tres partes: PREPROCESS, PCXS y INVERS. Cada una de ellas tiene funciones distintas pero todas son necesarias para obtener los resultados deseados.
 
-A continuación se muestra un diagrama de flujo sobre su funcionamiento. (ADJUNTAR DIAGRAMA, HACERLO.)
+A continuación se muestra un diagrama de flujo sobre su funcionamiento. 
+
+![funcionamiento.jpg](https://github.com/Ozzluis/PROFFAST-ICAyCC/blob/main/images/funcionamiento.jpg)
 
 ## PREPROCESS
 
