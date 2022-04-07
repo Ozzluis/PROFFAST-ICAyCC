@@ -7,6 +7,9 @@ PROFFAST 2 provee de un `InputfileGenerator`, el cuál prepara un único inputfi
 
 ## Primera parte del procesamiento
 
+Hace falta crear todo el ambiente en las computadoras, es decir, todas las carpetas y alcualización de Python con las librerias correspondientes. Es importamnte poner aquí un diagrama de la estructura de las carpetas para que se sepan las rutas que se tienen sobre los archivos y scripts que se ejecutan. 
+
+En PROFFAST 1 no fue posible hacer esto debido a que había muchas carpetas de pormedio e incluso varios discos duros. 
 
 ## Segunada parte del procesamiento
 
